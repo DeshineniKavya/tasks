@@ -29,66 +29,87 @@
                 </caption>
                 <tr>
                     <td>
-                    <label>Patient's Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="id1">Patient's Name</label><br></td>
+                    <td><input type="text" id="id1" name="name1">
                     <input type="text">
-                    <input type="text">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" value="male">Male
-                        <input type="radio" value="female">Female
+                        <label for="gender">Gender</label><br></td>
+                        <td> <input type="radio" value="male" id="id2" name="gender">Male
+                        <input type="radio" value="female" id="id3" name="gender">Female
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Phone No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="Number">
+                        <label for="id4">Phone No</label><br></td>
+                        <td><input type="Number" id="id4" name="name2">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Date Of Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="date">
+                        <label for="id5">Date Of Birth</label><br></td>
+                        <td> <input type="date" id="id5" name="name3">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Marital Status</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" value="single"> Single
-                        <input type="radio" value="married"> married
-                        <input type="radio" value="divorced"> Divorced
-                        <input type="radio" value="widow"> Widow
+                        <label for="status">Marital Status</label><br></td>
+                        <td><input type="radio" value="single" id="s" name="status"> Single
+                        <input type="radio" value="married" id="m" name="status"> married
+                        <input type="radio" value="divorced" id="d" name="status"> Divorced
+                        <input type="radio" value="widow" id="w" name="status"> Widow
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3">
+                      <label for="add1">Pateint's Address:</label>
+                    </td>
+                    <td colspan="2">
+                      <input type="text" name="street" id="add1" size="48" placeholder="Street">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="text" name="city" id="add2" placeholder="City">
+                    </td>
+                    <td>
+                      <input type="text" name="state" id="add3" placeholder="State">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="number" name="pincode" id="pin" placeholder="Pincode">
+                    </td>
+                    <td>
+                      <select name="country" id="country">
+                        <option>Country</option>
+                        <option value="india">India</option>
+                        <option value="australia">Australia</option>
+                        <option value="usa">USA</option>
+                        <option value="russia">Russia</option>
+                        <option value="england">England</option>
+                      </select>
+                    </td>
+                  </tr>
+                <tr>
+                    <td>
+                        <label for="id=num">Insurence Number</label><br></td>
+                        <td><input type="number" id="num" name="name7">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <label>Patient's Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text">
-                        <input type="text"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="text">
-                        <input type="text">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Insurence Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="number">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label>Past Medical History</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="anemia">Anemia<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="astama">Astama<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="bronchitis">Bronchitis<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="chickenpox">Chickenpox<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="diabetes">Diabetes<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     
-                        <input type="checkbox" value="pneumonia">pneumonia<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="thyroid">thyroid<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="checkbox" value="ulcer">ulcer<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>Past Medical History</label><br></td>
+                        <td><input type="checkbox" value="anemia">Anemia<br>
+                        <input type="checkbox" value="astama">Astama<br>
+                        <input type="checkbox" value="bronchitis">Bronchitis<br>
+                        <input type="checkbox" value="chickenpox">Chickenpox<br>
+                        <input type="checkbox" value="diabetes">Diabetes<br>                   
+                        <input type="checkbox" value="pneumonia">pneumonia<br>
+                        <input type="checkbox" value="thyroid">thyroid<br>
+                        <input type="checkbox" value="ulcer">ulcer<br>
                         <input type="checkbox" value="other">Other
                     </td>
                 </tr>
